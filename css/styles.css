@@ -46,40 +46,35 @@ a:hover {
   color: #66BFBF;
 }
 
-.footer-link {
-  color: #11999E;
-  margin: 10px 20px;
-}
-
-.footer-link:hover {
-  color: #EAF6F6;
-}
-
-.intro {
-  width: 40%;
-  margin: auto;
-}
-
-.top-container {
+.welcome-container {
   background-image: linear-gradient(#E4F9F5 70%, #FFFFFF);
   position: relative;
   padding-top: 100px;
 }
 
-.middle-container {
-  margin: 100px 0;
-}
-
-.upper-cloud {
+.top-cloud {
   position: absolute;
   right: 300px;
   top: 30px;
 }
 
-.lower-cloud {
+.bottom-cloud {
   position: absolute;
   left: 250px;
   bottom: 300px;
+}
+
+.content-container {
+  margin: 100px 0;
+}
+
+.profile-img {
+  width: 15%;
+}
+
+.intro-msg {
+  width: 40%;
+  margin: auto;
 }
 
 .skill-row {
@@ -88,18 +83,16 @@ a:hover {
   text-align: left;
 }
 
-.cpp-img {}
+.right-skill-img {
+  width: 18%;
+  float: right;
+  margin-left: 10px;
+}
 
 .left-skill-img {
   width: 18%;
   float: left;
   margin-right: 20px;
-}
-
-.right-skill-img {
-  width: 18%;
-  float: right;
-  margin-left: 10px;
 }
 
 .contact-msg {
@@ -134,9 +127,18 @@ a:hover {
   text-decoration: none;
 }
 
-.bottom-container {
+.footer-container {
   background-color: #66BFBF;
   padding: 50px 0 20px;
+}
+
+.footer-link {
+  color: #11999E;
+  margin: 10px 20px;
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
 }
 
 .copyright-msg {
